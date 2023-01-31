@@ -27,12 +27,12 @@ console.log('первое число меньше второго?', fracNumber <
 console.log('первое число больше второго?', fracNumber > fracSecondNumber);
 
 console.log('Третье задание_________________________________________')
-
-const randomNumber = Math.round(Math.random() * 1000) + 100;
-let corNumber = Math.abs(randomNumber - 100);
-let oddNumber = randomNumber * 2 + 7 - corNumber;
-
-console.log(oddNumber);
-
+const startMin = 1000;
+const startMax = -500;
+let min = Math.min(startMin, startMax);
+let max = Math.max(startMin, startMax);
+let maxMin = max - min;
+let randNumber = Math.floor(Math.random() * maxMin / 2) * 2 + 1;
+console.log(randNumber);
 
 
