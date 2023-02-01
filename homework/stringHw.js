@@ -1,12 +1,24 @@
 "use strict";
 console.log('Первое задание')
 const firstString = "robin_singh@example.com";
-let secondString = String(firstString.search("@"));
-let thirdString = String(firstString.slice(0, secondString));
-let finalString = String(thirdString.slice(secondString, 0) + firstString.slice(secondString));
-let test = String(firstString.search("_"));
-let secondTest = String(firstString.slice(0, test));
+let secondString = firstString.search("@");
+let thirdString = firstString.slice(0, secondString);
+let finalString = thirdString.slice(secondString, 0) + firstString.slice(secondString);
+let test = firstString.search("_");
+let secondTest = firstString.slice(0, test);
 console.log(secondTest + "..." + finalString);
+
+console.log('Второе задание')
+const strin = "JavaScript Exercises";
+const end = strin.length;
+let strinRep = strin.replace("Java", "java");
+let E = strin.search("E");
+let z = strin.search(" ");
+let t = strin.slice(z + 1, end);
+let strstr = strinRep.slice(0, z) + t  ;
+console.log(strstr);
+
+
 
 
 console.log('Третье задание')
