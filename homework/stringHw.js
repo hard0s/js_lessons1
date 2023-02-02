@@ -9,12 +9,16 @@ let secondTest = firstString.slice(0, test);
 console.log(secondTest + "..." + finalString);
 
 
+console.log("...Второе задание...")
+const str = "JavaScript Exercises";
 
-console.log('Второе задание')
-const strin = "JavaScript Exercises";
-const end = strin.length;
-let strinRep = strin.replace("Java", "java");
-let z = strin.indexOf(" ");
-let t = strin.slice(z + 1, end);
-let strstr = strinRep.slice(0, z) + t  ;
-console.log(strstr);
+let idSpace = str.indexOf(" ");
+let fWord = str.slice(0, idSpace);
+let sWord = str.slice(idSpace);
+
+let fChar = fWord.slice(0, 1);
+fWord = fWord.slice(1);
+let fLower = fChar.toLowerCase();
+let string = fLower + fWord + sWord;
+let std = string.replace(" ", "");
+console.log(std,"\n");
