@@ -3,7 +3,6 @@
 console.log("№1")
 let ar = []
 const count0 = 100
-//ar.lenght = count
 for (let i = 0; i < count0; i += 1){
     let a = Math.round(Math.random() *100)
     ar.push(a)
@@ -21,8 +20,6 @@ for (let i = len; i >= 0; i--) {
 
 
 console.log("№3")
-
-//const mine = [false, false, true, false, true, true, true, true, true, true]
 const mine = [false, false, false, true, false, true, false, false, false, false]
 
 let text = "";
