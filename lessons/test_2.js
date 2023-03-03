@@ -1,5 +1,5 @@
 "use strict";
-let standartMass = [1, 2, "Чебурек", "nigga",true,"", ["лол", "кек"], [ 1, 2, 65], 695, 789, "dead", NaN, undefined, true, false]
+let standartMass = [1, 2, "Чебурек", "nigga",true,"", ["лол", "кек"], [ 1, 2, 65], 695, 789, "dead", NaN, undefined, null, true, false]
 let num = ["number"]
 let str = ["string"]
 let arr = ["array"]
@@ -52,7 +52,7 @@ function getArray(standartMass) {
 }
 function getAnother(standartMass) {
     for (let i = 0; i < standartMass.length; i++) {
-        if (typeof standartMass[i] === "boolean" || typeof standartMass[i] === "NaN" || typeof standartMass[i] === "undefined") {
+        if (typeof standartMass[i] === "boolean" ||typeof standartMass[i] === "null" || typeof standartMass[i] === "undefined" || typeof standartMass[i] === "Null") {
         ano.push(standartMass[i])
     }
     else {
@@ -63,4 +63,3 @@ function getAnother(standartMass) {
 }
 
 console.log(getSort(standartMass))
-
