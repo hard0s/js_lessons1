@@ -1,5 +1,5 @@
 "use strict";
-let standartMass = [1, 2, "Чебурек", "nigga",true,"", ["лол", "кек"], [ 1, 2, 65], 695, 789, "dead", NaN, undefined, true, false]
+let standartMass = [1, 2, "Чебурек", "nigga",true,"", ["лол", "кек",  1, 2, 65], 695, 789, "dead", NaN, undefined, true, false]
 let num = ["number"]
 let str = ["string"]
 let arr = ["array"]
