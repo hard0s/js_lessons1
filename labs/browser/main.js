@@ -31,7 +31,7 @@
 // }
 
 // Math.round(Math.random() *10)
-let x = 1
+let x = Math.round(Math.random() *10)
 let checkAnsw = false
 let answer = prompt("enter number")
 check()
