@@ -54,25 +54,7 @@ let forclean = [null, 0,"", 1, 2, 3, 4, 5, false, undefined, false, 0 ];
 
 function DoFilter(){
     for (let i = 0; i < forclean.length; i++){
-        if (forclean[i] ===undefined){
-            forclean.pop(forclean[i])
-        }
-        else if (forclean[i] === false ) {
-            forclean.pop(forclean[i])
-        }
-        else if(typeof forclean[i] === "null"){
-            forclean.pop(forclean[i])
-        }
-        else if (forclean[i] === 0){
-            forclean.pop(forclean[i])
-        }
-        else if (forclean[i] === "" && forclean[i] === " "){
-            forclean.shift(forclean[i])
-        }
-        else {
-            continue
-        }
-
+        
     }
     console.log(forclean)
    return forclean

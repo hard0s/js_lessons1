@@ -1,0 +1,92 @@
+.Wrapper {
+    width: 900px;
+}
+
+body {
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    color: black;
+    appearance: none;
+    border: 0;
+    border-radius: 5px;
+    background: #00ff00;
+    padding: 8px 16px;
+    font-size: 16px;
+}
+.btn:hover {
+    background: #0000ab;
+}
+.btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #a5b3d3;
+}
+
+.btn-del {
+    background-color: #ec7373;
+}
+.btn-del:hover {
+    background-color: #ab0600;
+}
+.btn-done {
+    background-color: #00ff00;
+}
+.btn-done:hover {
+    background-color: #1e611e;
+}
+
+
+.hole {
+    width: 700px;
+
+    border: 1;
+    border-radius: 5px;
+
+    appearance: none;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+
+    font-size: 16px;
+    border-right-width: .800;
+    
+    margin-top: 5;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+
+.tasks{
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+    background-color: #ffffff;
+    padding: 30px 20px;
+    margin-top: 10px;
+}
+
+.task{
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #939697;
+    cursor: pointer;
+    background-color: #c5e1e6;
+    height: 50px;
+    margin-bottom: 8px;
+    padding: 5px 10px;
+    display: flex;
+}
+.task span{
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
