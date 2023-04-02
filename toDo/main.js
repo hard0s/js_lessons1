@@ -17,8 +17,7 @@ function btnClick() {
                     ${placeholder.value}
                 </span>
                 <button type="button" id="btnDel" class="btn btn-del">Удалить</button>
-                <button type="button" id="btnDone" class="btn btn-done">Сделано</button>
-
+                
             </div>
         `;
 
@@ -28,15 +27,10 @@ function btnClick() {
                 this.parentNode.remove();
             }
         }
-        let colorChange = document.querySelectorAll('#btnDone');
-        for (let i = 0; i < colorChange.length; i++) {
-            colorChange[i].onclick = function() {
-                let taskColor = document.querySelectorAll('#task')
-                taskColor.style.backgroundColor = '#00ff00'
-        }
+       
     }
 }
-}
+//не знаю как сделать кнопку которая будет менять цвет
 function main() {
     btnPlace.onclick = btnClick;
 }
